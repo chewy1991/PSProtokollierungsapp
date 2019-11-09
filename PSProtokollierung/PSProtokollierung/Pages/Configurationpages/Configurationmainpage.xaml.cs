@@ -12,25 +12,29 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using PSProtokollierung.Pages.Configurationpages;
 
-// Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x407 dokumentiert.
+// Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=234238 dokumentiert.
 
-namespace PSProtokollierung
+namespace PSProtokollierung.Pages.Configurationpages
 {
     /// <summary>
     /// Eine leere Seite, die eigenständig verwendet oder zu der innerhalb eines Rahmens navigiert werden kann.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Configurationmainpage : Page
     {
-        public MainPage()
+        public Configurationmainpage()
         {
             this.InitializeComponent();
         }
 
-        private void AbbConfig_Click(object sender, RoutedEventArgs e)
+        private void Home_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Configurationmainpage));
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Config_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

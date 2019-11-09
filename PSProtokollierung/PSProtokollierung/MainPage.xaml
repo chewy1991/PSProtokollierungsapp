@@ -9,7 +9,13 @@
     Background="White">
     <Grid>
         <Image Grid.RowSpan="2" Source="Assets/Startpagepic.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
-        
+        <CommandBar VerticalAlignment="Bottom">
+            <CommandBar.Content>
+                <StackPanel Orientation="Horizontal">
+                    <AppBarButton Icon="Setting" Click="AbbConfig_Click"></AppBarButton>
+                </StackPanel>
+            </CommandBar.Content>
+        </CommandBar>
         
         
     </Grid>
