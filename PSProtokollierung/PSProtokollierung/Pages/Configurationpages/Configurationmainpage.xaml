@@ -22,8 +22,8 @@
                 <Button Height="50" Width="250" Content="Titel hinzufügen" Click="Config_Click"></Button>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBox Height="50" Width="500" Name="TxtPraesi" PlaceholderText="Präsident hinzufügen"></TextBox>
-                <Button Height="50" Width="250" Content="Präsidenten hinzufügen" Click="Config_Click"></Button>
+                <TextBox Height="50" Width="500" Name="TxtPraesi" PlaceholderText="Präsident hinzufügen" Text="{Binding Praesident}"></TextBox>
+                <Button Height="50" Width="250" Content="Präsidenten " Click="Config_Click"></Button>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBox Height="50" Width="500" Name="TxtAktuar" PlaceholderText="Aktuarhinzufügen"></TextBox>

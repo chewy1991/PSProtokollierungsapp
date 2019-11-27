@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using PSProtokollierung.Model;
 
 // Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=234238 dokumentiert.
 
@@ -22,9 +23,11 @@ namespace PSProtokollierung.Pages.Configurationpages
     /// </summary>
     public sealed partial class Configurationmainpage : Page
     {
+        
         public Configurationmainpage()
         {
             this.InitializeComponent();
+           
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
@@ -34,6 +37,10 @@ namespace PSProtokollierung.Pages.Configurationpages
 
         private void Config_Click(object sender, RoutedEventArgs e)
         {
+          
+
+
+
 
         }
     }
